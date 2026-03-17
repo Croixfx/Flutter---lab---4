@@ -1,0 +1,72 @@
+# =========================
+# General / Miscellaneous
+# =========================
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.history
+
+# =========================
+# Build & Generated Files
+# =========================
+.build/
+.buildlog/
+build/
+migrate_working_dir/
+
+# =========================
+# Package / Dependency Files
+# =========================
+.packages
+.pub/
+.pub-cache/
+*.lock
+
+# =========================
+# Flutter / Dart
+# =========================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# =========================
+# IDE / Editor Settings
+# =========================
+.idea/
+*.iml
+*.ipr
+*.iws
+.atom/
+.svn/
+
+# VS Code (uncomment if needed)
+.vscode/
+
+# =========================
+# Platform-specific (Flutter)
+# =========================
+android/
+ios/
+web/
+linux/
+macos/
+windows/
+test/
+
+# =========================
+# Android Build Outputs
+# =========================
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# =========================
+# Symbolication / Obfuscation
+# =========================
+app.*.symbols
+app.*.map.json
